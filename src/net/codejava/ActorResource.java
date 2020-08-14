@@ -70,47 +70,5 @@ public class ActorResource {
 		return Response.ok().build();
 	}
 
-	/*
-	 * @GET
-	 * 
-	 * @Produces(MediaType.APPLICATION_JSON) public JsonArray getPersons(@Context
-	 * HttpHeaders http) { JsonObject json =
-	 * Json.createObjectBuilder().add("name22", "message").build(); return
-	 * Json.createArrayBuilder().add(json).build(); }
-	 */
-
-	/*
-	 * //@Inject ActorDAO actorDAO = new ActorDAO();
-	 * 
-	 * @GET
-	 * 
-	 * @Produces(MediaType.APPLICATION_JSON) public Response getAll() { //return
-	 * Response.ok(actorDAO.getAll()).build(); return
-	 * Response.ok(actorDAO.getActors()).build(); }
-	 * 
-	 * 
-	 * 
-	 * @PUT
-	 * 
-	 * @Path("{id}") public Response update(@PathParam("id") Long id, Actor actor) {
-	 * Actor updateActor = actorDAO.findById(id);
-	 * 
-	 * updateActor.setName(actor.getName());
-	 * updateActor.setNickname(actor.getNickname()); actorDAO.update(updateActor);
-	 * 
-	 * return Response.ok().build(); }
-	 * 
-	 * @POST public Response create(Actor Actor) { actorDAO.create(Actor); return
-	 * Response.ok().build(); }
-	 * 
-	 * @DELETE
-	 * 
-	 * @Path("{id}") public Response delete(@PathParam("id") Long id) { Actor
-	 * getActor = actorDAO.findById(id);
-	 * 
-	 * actorDAO.delete(getActor);
-	 * 
-	 * return Response.ok().build(); }
-	 * 
-	 */
+	
 }
